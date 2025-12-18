@@ -1,0 +1,340 @@
+Phase 2 — Theory Scope
+Purpose
+
+This document defines what Phase 2 is and is not.
+
+Phase 2 exists to explore reasoning space, constraint pressure, and failure boundaries without authorizing execution.
+
+It is explicitly a thinking layer, not a design, build, or test layer.
+
+What Phase 2 Covers
+
+Phase 2 may include:
+
+Conceptual behavior under stress
+
+Assumption fragility
+
+Failure extremes and edge cases
+
+Constraint violations
+
+Comparative reasoning against adjacent archetypes
+
+Boundary analysis between phases
+
+Accuracy is not guaranteed. Completeness is not required.
+
+What Phase 2 Does Not Do
+
+Phase 2 does not:
+
+Specify build steps
+
+Define materials or dimensions
+
+Provide validated performance claims
+
+Authorize simulation for implementation
+
+Support proposals, bids, or funding requests
+
+Any attempt to treat Phase 2 as executable guidance violates the license.
+
+Phase Relationship
+
+Phase 2:
+
+Does not modify Phase 0 or Phase 1
+
+Does not grant execution rights
+
+Is legally independent
+
+Execution authority exists only in Phase 3 with a separate license.
+
+Plain-English Summary
+
+Phase 2 is where ideas are stressed and broken on paper so mistakes don’t get made in hardware. It is for thinking, not building.
+
+01_Assumption_Stress_Tests.md
+Assumption Stress Tests
+Purpose
+
+This document identifies key assumptions and examines how they fail under pressure.
+
+The goal is not to prove assumptions correct, but to understand how wrong they can be before the system becomes invalid.
+
+Assumption Categories
+
+Typical assumption classes examined here include:
+
+Environmental conditions
+
+Operational timelines
+
+Human interaction expectations
+
+Passive behavior consistency
+
+Maintenance neglect tolerance
+
+Assumptions are treated as fragile by default.
+
+Stress Method
+
+Each assumption is conceptually stressed by asking:
+
+What if this is partially wrong?
+
+What if it degrades slowly?
+
+What if it fails intermittently?
+
+What if it fails silently?
+
+No simulations or tests are authorized or implied.
+
+Interpretation Rules
+
+Breaking an assumption does not kill the concept by default
+
+Cascading failures matter more than single-point breaks
+
+Graceful degradation is more important than nominal performance
+
+Plain-English Summary
+
+This file exists to poke holes in comfortable assumptions before reality does it for free.
+
+02_Failure_Extremes.md
+Failure Extremes
+Purpose
+
+This document explores worst-case conceptual failures, not likely failures.
+
+It intentionally examines scenarios beyond normal engineering margins.
+
+Failure Types Considered
+
+Conceptual extremes may include:
+
+Total loss of function
+
+Partial degradation over time
+
+Environmental abuse beyond design intent
+
+Complete neglect or abandonment
+
+Incorrect placement or misuse
+
+No attempt is made to prevent all failures.
+
+Acceptable vs Unacceptable Failure
+
+Phase 2 distinguishes between:
+
+Acceptable failure: system becomes ineffective but non-harmful
+
+Unacceptable failure: system causes damage, risk, or cascading dependency
+
+Only unacceptable failures invalidate the concept.
+
+Design Implication Rule
+
+If a failure requires:
+
+Active intervention
+
+Complex recovery
+
+Tight tolerances
+
+…it is flagged as incompatible with the core philosophy.
+
+Plain-English Summary
+
+This document asks, “How badly can this go wrong?” and checks whether the answer is still tolerable.
+
+03_Constraint_Violations.md
+Constraint Violations
+Purpose
+
+This document examines what happens when stated constraints are violated.
+
+Constraints are treated as real, not aspirational.
+
+Constraint Categories
+
+Typical constraints examined include:
+
+Power availability
+
+Mass and volume limits
+
+Operational simplicity
+
+Environmental exposure
+
+Human attention and maintenance
+
+Violations are assumed to be accidental, not malicious.
+
+Violation Analysis
+
+For each constraint, the analysis asks:
+
+What breaks first?
+
+Does failure propagate?
+
+Does recovery require coordination?
+
+Does violation cause hidden coupling?
+
+Constraints that fail gracefully are preferred.
+
+Phase Discipline Note
+
+This document does not propose fixes.
+It only records consequences.
+
+Plain-English Summary
+
+This file shows what happens when reality ignores the rules and checks whether the system survives anyway.
+
+04_Comparative_Archetypes.md
+Comparative Archetypes
+Purpose
+
+This document compares the concept against adjacent or alternative archetypes at a reasoning level only.
+
+No performance claims are made.
+
+Comparison Axes
+
+Conceptual comparisons may include:
+
+Passive vs active approaches
+
+Centralized vs distributed behavior
+
+Fragile vs sacrificial infrastructure
+
+Optimized vs tolerant systems
+
+Comparisons are qualitative, not quantitative.
+
+Interpretation Rules
+
+“Different” does not mean “better”
+
+Tradeoffs are more important than superiority
+
+Simpler systems are judged by failure behavior, not efficiency
+
+Non-Claim Boundary
+
+This document does not claim:
+
+Superiority
+
+Replacement of existing systems
+
+Universal applicability
+
+Plain-English Summary
+
+This file explains how the idea fits into the ecosystem without claiming it should replace anything.
+
+05_Long-Tail_Risks.md
+Long-Tail Risks
+Purpose
+
+This document captures low-probability, high-impact conceptual risks.
+
+These risks are often ignored because they are inconvenient or hard to quantify.
+
+Risk Types Considered
+
+Examples include:
+
+Rare environmental conditions
+
+Organizational misuse
+
+Incorrect mental models by operators
+
+Policy or certification friction
+
+Long-duration degradation effects
+
+Likelihood estimates are intentionally avoided.
+
+Handling Philosophy
+
+Long-tail risks are:
+
+Documented, not dismissed
+
+Accepted, not eliminated
+
+Managed through simplicity, not control
+
+Phase Boundary
+
+Mitigation strategies are not defined here.
+That belongs to execution planning, not theory.
+
+Plain-English Summary
+
+This file records the uncomfortable risks that don’t show up in happy-path thinking.
+
+06_Phase_Boundary_Analysis.md
+Phase Boundary Analysis
+Purpose
+
+This document defines where Phase 2 must stop and Phase 3 would begin.
+
+It prevents theory creep into execution.
+
+Phase 2 Hard Stops
+
+Phase 2 ends before:
+
+Material selection
+
+Geometry finalization
+
+Cost estimation
+
+Schedule definition
+
+Performance guarantees
+
+Crossing these lines requires Phase 3 authorization.
+
+Hand-off Criteria (Conceptual Only)
+
+Phase 2 may conclude when:
+
+Major assumptions are surfaced
+
+Failure modes are understood
+
+Constraints are respected
+
+No hidden execution dependencies remain
+
+These are readiness indicators, not approvals.
+
+Legal Reminder
+
+Phase 2 completion does not grant execution rights.
+
+Execution authority exists only through a Phase 3 execution license.
+
+Plain-English Summary
+
+This file draws the line that keeps thinking from quietly turning into building.
