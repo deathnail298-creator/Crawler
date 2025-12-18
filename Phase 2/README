@@ -1,0 +1,183 @@
+Phase 2 — Theory (README.md)
+Scope and Purpose
+
+Phase 2 contains theory-only materials.
+This phase exists to explore assumptions, stress limits, edge cases, and conceptual behavior without authorizing execution.
+
+Phase 2 answers the question:
+
+“If someone were to attempt this, what breaks, what holds, and under what constraints?”
+
+It does not answer:
+
+“How do we build this?”
+“How much does it cost?”
+“What vendor should do it?”
+
+Those questions are explicitly out of scope.
+
+Phase Separation (Non-Negotiable)
+
+Phase 2 is legally and operationally separate from Phase 0 and Phase 1.
+
+Phase	Purpose	Execution Allowed
+Phase 0	Permission to exist	❌ No
+Phase 1	Permission to test	❌ No
+Phase 2	Theory, stress, reasoning	❌ No
+Phase 3	Execution & money	✅ With license
+
+Reading Phase 2 does not expand rights granted by Phase 0 or Phase 1.
+
+License Governing Phase 2
+
+All Phase 2 materials are governed by the Theory Exploration License (TEL-1.0).
+
+Key rule, stated plainly:
+
+Phase 2 may be read, discussed, critiqued, and reasoned about —
+but not executed — without a separate execution license defined in Phase 3.
+
+If someone wants to build, test, simulate, propose, fund, or deploy anything derived from Phase 2, they must first obtain an execution license.
+
+The full license text is included as LICENSE_TEL-1.0.md.
+
+What Phase 2 Includes
+
+Typical Phase 2 materials may include:
+
+Assumption stress tests
+
+Failure-mode extremes
+
+Constraint violations
+
+Comparative archetypes
+
+Boundary analysis
+
+Long-tail risk exploration
+
+These materials are intentionally allowed to be incomplete, speculative, or wrong. That is the point.
+
+What Phase 2 Explicitly Does NOT Do
+
+Phase 2 does not:
+
+Authorize hardware builds
+
+Provide construction instructions
+
+Support proposals or bids
+
+Provide validated performance claims
+
+Offer cost, ROI, or schedule guarantees
+
+If someone treats Phase 2 as executable guidance, that is a license violation, not a misunderstanding.
+
+Plain-English Summary
+
+Phase 2 is a thinking space, not a build space. You can read it, argue with it, and learn from it — but you cannot use it to make real-world systems without a separate execution license defined in Phase 3.
+
+LICENSE_TEL-1.0.md
+Theory Exploration License (TEL-1.0)
+1. Purpose
+
+This license governs access to and use of theory-only materials contained in the Phase 2 section of this repository (“Theory Materials”).
+
+These materials are provided solely for reading, reasoning, critique, and conceptual exploration.
+
+This is not an open-source license.
+
+2. Definitions
+
+Theory Materials
+All documents, diagrams, calculations, text, and reasoning contained in Phase 2.
+
+Execution
+Any action that applies Theory Materials to real-world activity, including but not limited to: building, prototyping, testing, simulating, manufacturing, deploying, integrating, proposing, contracting, funding, or operational use.
+
+Licensee
+Any individual or entity accessing or using the Theory Materials.
+
+3. Permitted Uses (Free)
+
+The following uses are permitted without payment or additional permission:
+
+Reading and reviewing the Theory Materials
+
+Private reasoning and internal discussion
+
+Academic or informal critique
+
+Independent verification of logic or math
+
+High-level conceptual reference without implementation
+
+These uses do not authorize execution.
+
+4. Prohibited Uses Without Execution License
+
+The following are explicitly prohibited without a separate execution license:
+
+Building or prototyping
+
+Laboratory or field testing
+
+Simulation for implementation purposes
+
+Use in proposals, bids, grants, or contracts
+
+Integration into other systems or designs
+
+Commercial or government deployment
+
+Derivative works intended for execution
+
+Intent is irrelevant. Outcome controls.
+
+5. Execution License Requirement
+
+Any execution requires a separate Execution License obtained prior to execution.
+
+Base execution license fee: $5,000 USD
+
+Additional scope, terms, and royalties negotiated separately
+
+Execution licenses are granted in writing only
+
+Possession of Phase 0 or Phase 1 materials does not waive this requirement.
+
+6. Relationship to Other Phases
+
+Phase 0 and Phase 1 are governed by their own licenses
+
+Phase 2 does not modify Phase 0 / Phase 1 rights
+
+Each phase is legally independent
+
+7. No Warranty
+
+THE THEORY MATERIALS ARE PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND.
+
+No claim is made that the materials are correct, complete, safe, feasible, or suitable for any purpose.
+
+8. Limitation of Liability
+
+IN NO EVENT SHALL THE AUTHOR OR LICENSOR BE LIABLE FOR ANY DAMAGES ARISING FROM USE OR MISUSE OF THE THEORY MATERIALS.
+
+9. Termination
+
+This license terminates automatically upon violation.
+All rights immediately cease.
+
+10. Acceptance
+
+Accessing or using the Theory Materials constitutes acceptance of this license.
+
+If you do not agree, do not access the materials.
+
+Contact
+
+Execution licensing inquiries:
+Nathan Rudloff — nathanrudloff@gmail.com
